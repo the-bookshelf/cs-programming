@@ -1,0 +1,90 @@
+[package]
+name = "Chapter8"
+version = "1.0.0"
+
+[dependencies]
+nix = "0.10"
+thread-id = "3.3"
+lazy_static = "1.0"
+rand = "0.4.2"
+
+[[bin]]
+name = "process_a"
+path = "process_a.rs"
+
+[[bin]]
+name = "process_b"
+path = "process_b.rs"
+
+[[bin]]
+name = "fork1"
+path = "fork1.rs"
+
+[[bin]]
+name = "fork2"
+path = "fork2.rs"
+
+[[bin]]
+name = "fork3"
+path = "fork3.rs"
+
+[[bin]]
+name = "thread1"
+path = "thread1.rs"
+
+[[bin]]
+name = "thread2"
+path = "thread2.rs"
+
+[[bin]]
+name = "thread3"
+path = "thread3.rs"
+
+[[bin]]
+name = "thread4"
+path = "thread4.rs"
+
+[[bin]]
+name = "thread5"
+path = "thread5.rs"
+
+[[bin]]
+name = "share1"
+path = "share1.rs"
+
+[[bin]]
+name = "share2"
+path = "share2.rs"
+
+[[bin]]
+name = "share3"
+path = "share3.rs"
+
+[[bin]]
+name = "share4"
+path = "share4.rs"
+
+[[bin]]
+name = "share5"
+path = "share5.rs"
+
+[[bin]]
+name = "share6"
+path = "share6.rs"
+
+[[bin]]
+name = "share7"
+path = "share7.rs"
+
+[[bin]]
+name = "pattern1"
+path = "pattern1.rs"
+
+[[bin]]
+name = "pattern2"
+path = "pattern2.rs"
+
+[[bin]]
+name = "pattern3"
+path = "pattern3.rs"
+

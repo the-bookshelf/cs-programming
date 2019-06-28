@@ -1,0 +1,98 @@
+[package]
+name = "Chapter9"
+version = "1.0.0"
+
+[dependencies]
+flame = "0.2"
+rand = "0.4.2"
+requests = "0.0.30"
+rusty-machine = "0.5.4"
+procmacro = { path = "procmacro" }
+
+[[bin]]
+name = "performance_release_mode"
+path = "performance_release_mode.rs"
+
+[[bin]]
+name = "performance_omission1"
+path = "performance_omission1.rs"
+
+[[bin]]
+name = "performance_omission2"
+path = "performance_omission2.rs"
+
+[[bin]]
+name = "performance_profiling1"
+path = "performance_profiling1.rs"
+
+[[bin]]
+name = "performance_profiling2"
+path = "performance_profiling2.rs"
+
+[[bin]]
+name = "performance_profiling3"
+path = "performance_profiling3.rs"
+
+[[bin]]
+name = "performance_profiling4"
+path = "performance_profiling4.rs"
+
+[[bin]]
+name = "performance_constant"
+path = "performance_constant.rs"
+
+[[bin]]
+name = "performance_logarithmic"
+path = "performance_logarithmic.rs"
+
+[[bin]]
+name = "performance_polynomial1"
+path = "performance_polynomial1.rs"
+
+[[bin]]
+name = "performance_polynomial2"
+path = "performance_polynomial2.rs"
+
+[[bin]]
+name = "performance_polynomial3"
+path = "performance_polynomial3.rs"
+
+[[bin]]
+name = "performance_polynomial4"
+path = "performance_polynomial4.rs"
+
+[[bin]]
+name = "performance_exponential"
+path = "performance_exponential.rs"
+
+[[bin]]
+name = "performance_reference"
+path = "performance_reference.rs"
+
+[[bin]]
+name = "debugging_result"
+path = "debugging_result.rs"
+
+[[bin]]
+name = "debugging_heartbeat"
+path = "debugging_heartbeat.rs"
+
+[[bin]]
+name = "debugging_buggy_worker"
+path = "debugging_buggy_worker.rs"
+
+[[bin]]
+name = "debugging_assert"
+path = "debugging_assert.rs"
+
+[[bin]]
+name = "metaprogramming_grammar"
+path = "metaprogramming_grammar.rs"
+
+[[bin]]
+name = "metaprogramming_ebnf"
+path = "metaprogramming_ebnf.rs"
+
+[[bin]]
+name = "metaprogramming_procmacro"
+path = "metaprogramming_procmacro.rs"
